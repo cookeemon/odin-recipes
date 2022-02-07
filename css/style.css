@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(37, 47, 32);
+    font-family: Papyrus,fantasy,Copperplate,"Copperplate Gothic Light",fantasy;
+    color: white;
+    font-size: 22px;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(53, 82, 83);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+header h1 {
+    background-color: rgb(100, 130, 133);
+    width: 500px;
+    margin: 0 auto;
+    border-width: 5px;
+    border-color: rgb(36, 28, 28);
+    border-style: ridge;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: rgb(15, 40, 63);
+    width: 400px;
+    border-width: 2px;
+    border-color: rgb(36, 28, 28);
+    border-style: solid;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 240, 253);
+}
+
+a:hover {
+    color:rgb(204, 173, 138);
+}
+
+.image-box {
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 300px 200px;
+    width: 500px;
+}
+
+.image-box.pizza {
+    background-image: url(../img/pizza.jpeg);
+}
+.image-box.cheesecake {
+    background-image: url(../img/plain-cheesecake.jpg);
+}
+
+.image-box.ramen {
+    background-image: url(../img/ramen.jpg);
+}
+
+p {
+    text-align: center;
+    background-color: rgb(68, 66, 56);
+    padding: 10px;
+}
+
+ul {
+    list-style: inside;
+    list-style-image: url(../img/icon.png);
+    text-align: center;
+}
